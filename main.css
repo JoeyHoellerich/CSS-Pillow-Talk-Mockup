@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap");
 
-/* Build Helpers */
-* {
-  border: 1px solid mediumvioletred;
-}
-
-img {
-  width: 100px;
-}
-
 /* General */
 body {
   background-color: snow;
@@ -34,3 +25,56 @@ h2 {
 h1 {
   font-family: "Fredoka One", cursive;
 }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+
+/* Container */
+.container {
+  display: flex;
+}
+
+aside {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 85%;
+}
+
+/* Aside */
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+/* Main */
+/* Top Row */
+div[class$="row"] {
+  display: flex;
+}
+
+.row-1 > * {
+  width: 100%;
+}
+
+.row-2 > * {
+  width: 49%;
+}
+
+.row-3 > * {
+  width: 32%;
+}
+
+/* Middle Row */
